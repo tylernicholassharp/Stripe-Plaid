@@ -1,0 +1,122 @@
+<head>
+  <title>stripeAndMeteor</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        {{> loginButtons}}
+        <div class="panel-body">
+            <form class="payment-form">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                             <label>
+        <span>Name</span>
+        <input id="name" class="field" placeholder="Jenny Rosen" />
+      </label>
+      <label>
+        <span>Type</span>
+        <select id="type" class="field">
+          <option value="individual">Individual</option>
+          <option value="company">Company</option>
+        </select>
+      </label>
+      <label>
+        <span>Routing number</span>
+        <input id="routing-number" class="field" placeholder="110000000" />
+      </label>
+      <label>
+        <span>Account number</span>
+        <input id="account-number" class="field" placeholder="000123456789" />
+      </label>
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-3 col-md-3">
+                        <div class="form-group">
+                             <label>
+        <span>Name</span>
+        <input id="name" class="field" placeholder="Jenny Rosen" />
+      </label>
+      <label>
+        <span>Type</span>
+        <select id="type" class="field">
+          <option value="individual">Individual</option>
+          <option value="company">Company</option>
+        </select>
+      </label>
+      <label>
+        <span>Routing number</span>
+        <input id="routing-number" class="field" placeholder="110000000" />
+      </label>
+      <label>
+        <span>Account number</span>
+        <input id="account-number" class="field" placeholder="000123456789" />
+      </label>
+                            />
+                        </div>
+                    </div>
+                   <label>
+        <span>Name</span>
+        <input id="name" class="field" placeholder="Jenny Rosen" />
+      </label>
+      <label>
+        <span>Type</span>
+        <select id="type" class="field">
+          <option value="individual">Individual</option>
+          <option value="company">Company</option>
+        </select>
+      </label>
+      <label>
+        <span>Routing number</span>
+        <input id="routing-number" class="field" placeholder="110000000" />
+      </label>
+      <label>
+        <span>Account number</span>
+        <input id="account-number" class="field" placeholder="000123456789" />
+      </label>
+                            />
+                        </div>
+                    </div>
+                    <div class="col-xs-5 col-md-5 pull-right">
+                        <div class="form-group">
+                             <label>
+        <span>Name</span>
+        <input id="name" class="field" placeholder="Jenny Rosen" />
+      </label>
+      <label>
+        <span>Type</span>
+        <select id="type" class="field">
+          <option value="individual">Individual</option>
+          <option value="company">Company</option>
+        </select>
+      </label>
+      <label>
+        <span>Routing number</span>
+        <input id="routing-number" class="field" placeholder="110000000" />
+      </label>
+      <label>
+        <span>Account number</span>
+        <input id="account-number" class="field" placeholder="000123456789" />
+      </label>
+                            />
+                        </div>
+                    </div>
+                </div>
+                <input type="submit">
+            </form>
+        </div>
+      </div>
+    <button type="submit">Submit</button>
+    <div class="outcome">
+      <div class="error"></div>
+      <div class="success">
+        <button id="chargeUser">Charge Customer</button>
+      </div>
+    </div>
+  </div>
+</body>
